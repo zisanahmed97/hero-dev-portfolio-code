@@ -1,0 +1,54 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* shared style */
+.logo h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+/* individual style */
+.font-color-orange{
+    color: #FD6E0A;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+}
+
+nav{
+    width: 1140px;
+    max-width: 1140px;
+    margin: 0px auto;  /* eta diye jinish ta majhe niye ashe */
+    display: flex;
+    justify-content: space-between; /*  eta diye content dui side a diye dey  */
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    gap:51px;
+    list-style-type: none;
+    align-items: center;
+
+}
+ nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+ }
