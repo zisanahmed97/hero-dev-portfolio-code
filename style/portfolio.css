@@ -18,6 +18,11 @@
     border-radius: 5px;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
 /* individual style */
 .font-color-orange{
     color: #FD6E0A;
@@ -91,3 +96,49 @@ nav .menu{
     max-width: 585px;
      vertical-align: middle; /*eta krle niche theke gap ta chole jay */
  }
+
+ #about{
+    padding-top: 130px;
+   
+ }
+
+ #about .about-container{
+    width: 1140px;
+    max-width: 1140px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+ }
+
+  #about .about-container .section-heading h2{
+       color:#181818;
+       font-size: 35px;
+       font-weight: bold;
+       margin-bottom: 30px;
+  }
+
+  #about .about-container .section-heading p{
+    font-size: 18px;
+    color:#ABABAB;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  #about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about-info .info-card p{
+    font-size: 20px;
+    color:#757575;
+  }
+
+   .about-info .info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color:#474747;
+   }
