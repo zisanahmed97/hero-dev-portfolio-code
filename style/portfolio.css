@@ -125,6 +125,7 @@ nav .menu{
     color:#ABABAB;
     line-height: 30px;
     margin-bottom: 30px;
+   
 
   }
 
@@ -153,6 +154,10 @@ nav .menu{
     width: 1140px;
     max-width: 1140px;
     margin:0 auto;
+   }
+
+   #skills .skill-container .section-heading p{
+    margin-top: 30px;
    }
     #skills .skill-container .skill-box{
         display: flex;
@@ -185,4 +190,47 @@ nav .menu{
     color: #757575;
     font-size: 16px;
    line-height: 28px;
+}
+
+#resume{
+     padding-top: 130px;
+}
+
+#resume .resume-container{
+    width: 1140px;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+#resume .my-qualification{
+    display: flex;
+    gap:24px;
+    margin-top: 130px;
+}
+
+#resume .my-qualification .education h3,.experience h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#resume .my-qualification .info-card h4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747;
+    margin-bottom: 10px;
+}
+#resume .my-qualification .info-card h5{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+#resume .my-qualification .info-card p{
+    color:#757575;
+    font-size: 16px;
+    line-height: 28px;
 }
